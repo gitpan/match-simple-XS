@@ -25,7 +25,7 @@ optional_features: {}
 provides:
   match::simple::XS:
     file: lib/match/simple/XS.pm
-    version: 0.000_01
+    version: 0.000_02
 recommends:
   match::simple: 0
 requires:
@@ -36,4 +36,4 @@ resources:
   homepage: https://metacpan.org/release/match-simple-XS
   license: http://dev.perl.org/licenses/
   repository: https://github.com/tobyink/p5-match-simple-xs
-version: 0.000_01
+version: 0.000_02
