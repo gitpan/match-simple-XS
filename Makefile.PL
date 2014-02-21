@@ -26,7 +26,7 @@ my $meta = {
                         test      => { requires => { "Test::More" => 0.96 } },
                       },
   "provides"       => {
-                        "match::simple::XS" => { file => "lib/match/simple/XS.pm", version => "0.000_02" },
+                        "match::simple::XS" => { file => "lib/match/simple/XS.pm", version => "0.000_03" },
                       },
   "release_status" => "testing",
   "resources"      => {
@@ -41,7 +41,7 @@ my $meta = {
                                         },
                         X_identifier => "http://purl.org/NET/cpan-uri/dist/match-simple-XS/project",
                       },
-  "version"        => "0.000_02",
+  "version"        => "0.000_03",
 };
 
 my %dynamic_config;
