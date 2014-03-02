@@ -45,6 +45,7 @@
       },
       "test" : {
          "requires" : {
+            "Test::Fatal" : "0",
             "Test::More" : "0.96"
          }
       }
@@ -52,7 +53,7 @@
    "provides" : {
       "match::simple::XS" : {
          "file" : "lib/match/simple/XS.pm",
-         "version" : "0.000_03"
+         "version" : "0.000_04"
       }
    },
    "release_status" : "testing",
@@ -70,5 +71,5 @@
          "web" : "https://github.com/tobyink/p5-match-simple-xs"
       }
    },
-   "version" : "0.000_03"
+   "version" : "0.000_04"
 }
