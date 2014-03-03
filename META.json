@@ -53,10 +53,10 @@
    "provides" : {
       "match::simple::XS" : {
          "file" : "lib/match/simple/XS.pm",
-         "version" : "0.000_05"
+         "version" : "0.001"
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "X_identifier" : "http://purl.org/NET/cpan-uri/dist/match-simple-XS/project",
       "bugtracker" : {
@@ -71,5 +71,5 @@
          "web" : "https://github.com/tobyink/p5-match-simple-xs"
       }
    },
-   "version" : "0.000_05"
+   "version" : "0.001"
 }

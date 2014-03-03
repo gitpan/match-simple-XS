@@ -26,9 +26,9 @@ my $meta = {
                         test      => { requires => { "Test::Fatal" => 0, "Test::More" => 0.96 } },
                       },
   "provides"       => {
-                        "match::simple::XS" => { file => "lib/match/simple/XS.pm", version => "0.000_05" },
+                        "match::simple::XS" => { file => "lib/match/simple/XS.pm", version => 0.001 },
                       },
-  "release_status" => "testing",
+  "release_status" => "stable",
   "resources"      => {
                         bugtracker   => {
                                           web => "http://rt.cpan.org/Dist/Display.html?Queue=match-simple-XS",
@@ -41,7 +41,7 @@ my $meta = {
                                         },
                         X_identifier => "http://purl.org/NET/cpan-uri/dist/match-simple-XS/project",
                       },
-  "version"        => "0.000_05",
+  "version"        => 0.001,
 };
 
 my %dynamic_config;
